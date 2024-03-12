@@ -9,5 +9,5 @@ public class Elementos {
 	public static By bairro_Distrito = By.xpath("//td[@data-th='Bairro/Distrito']");
 	public static By localidade_UF = By.xpath("//td[@data-th='Localidade/UF']");
 	public static By CEP = By.xpath("//td[@data-th='CEP']");
-	
+	public static By btnBuscar = By.id("btn_pesquisar");	
 }

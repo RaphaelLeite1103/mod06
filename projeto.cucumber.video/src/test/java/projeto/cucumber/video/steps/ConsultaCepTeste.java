@@ -24,6 +24,7 @@ public class ConsultaCepTeste {
 	@When("enviar os dados para busca")
 	public void enviarOsDadosParaBusca() {
 		home.buscarCepEndereco("04285-000");
+		home.clicarBotao();
 
 	}
 	@Then("validar os dados retornando")

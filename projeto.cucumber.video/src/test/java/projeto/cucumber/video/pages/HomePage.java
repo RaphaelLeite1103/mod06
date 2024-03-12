@@ -19,4 +19,8 @@ public class HomePage {
 		metodo.validarTexto(Elementos.CEP, cep);
 	}
 	
+	public void clicarBotao () {
+		metodo.clicar(Elementos.btnBuscar);
+				}
+	
 }
